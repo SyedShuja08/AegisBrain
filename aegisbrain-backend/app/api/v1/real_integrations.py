@@ -37,9 +37,9 @@ load_dotenv(dotenv_path=_ENV_PATH, override=True)
 
 router = APIRouter(prefix="/integrations", tags=["real integrations"])
 
-FOUNDER_NAME = os.getenv("FOUNDER_NAME", "Mohammed Fahad Ali")
-FOUNDER_EMAIL = os.getenv("FOUNDER_EMAIL", "mdfahadali.in@gmail.com")
-FOUNDER_PHONE = os.getenv("FOUNDER_PHONE", "+91 91216 13624")
+FOUNDER_NAME = os.getenv("FOUNDER_NAME", "Mohammed Fahad Ali, SYED SHUJA MUSTAFA & SAIRA AQLEEM")
+FOUNDER_EMAIL = os.getenv("FOUNDER_EMAIL", "mdfahadali.in@gmail.com, syedshujamustafa6@gmail.com, sairaaqleem7108@gmail.com")
+FOUNDER_PHONE = os.getenv("FOUNDER_PHONE", "+91 91216 13624, +91 79931 39445, +91 70327 51679")
 
 _OTP_STORE: dict[str, tuple[str, float]] = {}
 

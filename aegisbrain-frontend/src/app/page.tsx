@@ -115,9 +115,9 @@ const HOME_MOTION_CSS = `
 /* ------------------------------------------------------------------ */
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
-const FOUNDER_NAME = "Mohammed Fahad Ali";
-const FOUNDER_EMAIL = "mdfahadali.in@gmail.com";
-const FOUNDER_PHONE = "+91 91216 13624";
+const FOUNDER_NAME = "Mohammed Fahad Ali, SYED SHUJA MUSTAFA & SAIRA AQLEEM";
+const FOUNDER_EMAIL = "mdfahadali.in@gmail.com, syedshujamustafa6@gmail.com, sairaaqleem7108@gmail.com";
+const FOUNDER_PHONE = "+91 91216 13624, +91 79931 39445, +91 70327 51679";
 
 const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 const EASE_DRAMATIC: [number, number, number, number] = [0.76, 0, 0.24, 1];
